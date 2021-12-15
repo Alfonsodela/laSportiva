@@ -1,0 +1,89 @@
+// @import './custom';
+@import './mixins';
+@import './responsive';
+@import "./variables";
+
+@import "../block/header";
+@import '../block/slideshow';
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+} 
+
+  .hamburguer {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: black;
+    height: 100px;
+    color: white;
+  }
+
+  // .is-hidden {
+  // display: none;
+  // }
+
+
+
+.maincontent__editorial-block {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  background-color: white;
+  margin: 20px;
+}
+
+.maincontent__editorial-block1 {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-image: url("https://www.lasportiva.com/media/banner_HP/home_box/MicrosoftTeams-image_52_.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.maincontent__editorial-block2 {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-image: url("https://www.lasportiva.com/media/banner_HP/home_box/Anton_Krupicka_600x600.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.maincontent__editorial-block3 {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-image: url("https://www.lasportiva.com/media/banner_HP/home_box/banner_box_600x600_giacche.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/*Main*/
+
+.maincontent__editorial-block {
+  flex-direction: row;
+  height: 300px;
+}
+
+.maincontent__editorial-block1 {
+  height: auto;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.maincontent__editorial-block2 {
+  height: auto;
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.maincontent__editorial-block3 {
+  height: auto;
+  width: 100%;
+  margin-left: 10px;
+}

@@ -1,0 +1,233 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+}
+
+.header__content {
+  width: 92%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__content .header__menu-left {
+  width: 25px;
+}
+
+.header__content .hamburguer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 150px;
+  background-color: black;
+  height: 100px;
+  color: white;
+}
+
+.header__content .header__logo {
+  width: 80px;
+}
+
+.header__content .header__menu-right {
+  width: 24px;
+}
+
+.header__wrapper {
+  display: none;
+}
+
+.maincontent__slideshow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.lasportiva.com/media/banner_HP/TCpro_1920x800.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.maincontent__h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  text-align: justify;
+  color: white;
+}
+
+.maincontent__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 130px;
+  margin-bottom: 20px;
+  background: transparent;
+  margin: 20px;
+  color: white;
+}
+
+.maincontent__editorial-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  margin: 20px;
+}
+
+.maincontent__editorial-block1 {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-image: url("https://www.lasportiva.com/media/banner_HP/home_box/MicrosoftTeams-image_52_.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.maincontent__editorial-block2 {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-image: url("https://www.lasportiva.com/media/banner_HP/home_box/Anton_Krupicka_600x600.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.maincontent__editorial-block3 {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-image: url("https://www.lasportiva.com/media/banner_HP/home_box/banner_box_600x600_giacche.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/*Main*/
+@media screen and (min-width: 900px) {
+  .header__content {
+    width: 96%;
+    height: 55px;
+  }
+  .header__wrapper {
+    background: #3a2e2e;
+    width: 100%;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__panel-left {
+    padding-left: 15px;
+    font-size: 11px;
+    color: white;
+  }
+  .header__panel-right {
+    padding-right: 15px;
+  }
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    list-style: none;
+  }
+  .header__links {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 12px;
+    letter-spacing: 1px;
+  }
+  .header__links:hover {
+    color: #fdbe10;
+  }
+  .maincontent__editorial-block {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 300px;
+  }
+  .maincontent__editorial-block1 {
+    height: auto;
+    width: 100%;
+    margin-right: 10px;
+  }
+  .maincontent__editorial-block2 {
+    height: auto;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .maincontent__editorial-block3 {
+    height: auto;
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

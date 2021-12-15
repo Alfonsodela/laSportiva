@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g fill="none" fill-rule="evenodd" class="symbols">
+    <g fill="#FFF" fill-rule="nonzero" class="symbols__footer" transform="translate(-163 -488)">
+      <g class="symbols__footer__menu-lists" transform="translate(0 233)">
+        <g class="symbols__footer__menu-lists__col1" transform="translate(42 40)">
+          <g class="symbols__footer__menu-lists__col1__social" transform="translate(1 215)">
+            <g class="symbols__footer__menu-lists__col1__social__youtube" transform="translate(120)">
+              <polygon points="13.132 17.81 18.011 15 13.132 12.19" class="symbols__footer__menu-lists__col1__social__youtube__path"/>
+              <path d="M15,0 C6.71699525,0 0,6.71699525 0,15 C0,23.2830047 6.71699525,30 15,30 C23.2830047,30 30,23.2830047 30,15 C30,6.71699525 23.2830047,0 15,0 Z M24.3727918,15.0153351 C24.3727918,15.0153351 24.3727918,18.0574036 23.9868164,19.5243073 C23.7705231,20.3272247 23.1374359,20.9603119 22.3345184,21.1763763 C20.8676147,21.5625 15,21.5625 15,21.5625 C15,21.5625 9.14772035,21.5625 7.66548158,21.1610413 C6.8625641,20.9449768 6.22947691,20.3116608 6.01318359,19.5087433 C5.62705992,18.0574036 5.62705992,15 5.62705992,15 C5.62705992,15 5.62705992,11.9581604 6.01318359,10.4912567 C6.22924805,9.68833922 6.87789914,9.03968813 7.66548158,8.82362367 C9.13238525,8.4375 15,8.4375 15,8.4375 C15,8.4375 20.8676147,8.4375 22.3345184,8.83895871 C23.1374359,9.05502316 23.7705231,9.68833922 23.9868164,10.4912567 C24.3882751,11.9581604 24.3727918,15.0153351 24.3727918,15.0153351 L24.3727918,15.0153351 Z" class="symbols__footer__menu-lists__col1__social__youtube__shape"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

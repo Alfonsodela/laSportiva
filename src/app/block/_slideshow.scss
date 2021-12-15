@@ -1,0 +1,30 @@
+/*Slideshow*/
+
+.slideshow {
+    @include flexCenter(column, flex-end, center);
+
+    width: 100vw;
+    height: 85vh;
+    background-image: url("https://www.lasportiva.com/media/banner_HP/TCpro_1920x800.jpg");
+    background-position: center;
+    background-size: cover;
+
+    &__title {
+        @include flexCenter(column, flex-end, center);
+        
+        width: 400px;
+        text-align: justify;
+        color: white;
+      }
+      
+    &__button {
+        @include flexCenter(column, flex-end, center);
+
+        width: 130px;
+        margin-bottom: 20px;
+        background: transparent;
+        margin: 20px;
+      
+        color: white;
+      }
+  }
