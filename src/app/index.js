@@ -1,11 +1,11 @@
 import './styles/styles.scss';
 import 'bootstrap';
 
-// function addListeners() {
+function addListeners() {
   TODO
-  // console.log('addListeners');
-// }
-
+  console.log('addListeners');
+}
+// 
 window.onload = () => {
   
  
